@@ -322,7 +322,7 @@ allOptionBoxesFour.forEach((optionBoxFour) => {
         }
          else if (seikaiFour == 8) {
             setTimeout(()=>{
-                alert("Good Job! You passed the Quiz 1, continue to the next page! :D");
+                alert("Good Job! You passed the Quiz 2, continue to the next page! :D");
             }, 500);
         }
     });
