@@ -254,6 +254,7 @@ body {
 }
 
 .nextPageButton {
+    margin-top: 5%;
     text-decoration: none;
     border-radius: 8px;
     margin-left: 4%;
@@ -467,15 +468,26 @@ body {
 }
 
 .hpBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: column;
+    position: relative;
+}
+
+.hpBG {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    position: relative;
 }
 
 .hpBars {
-    width: 65%;
-    height: 8%;
+    width: 98%;
+    height: 75%;
     display: flex;
     flex-direction: row;
     position: absolute;
@@ -484,10 +496,10 @@ body {
 }
 
 .bars {
-    width: 25%;
-    height: 100%;
+    width: 32%;
+    height: 75%;
     background-color: greenyellow;
-    margin-top: 1.25%;
+    margin-top: 0%;
     margin-left: 1.2%;
 }
 
@@ -502,16 +514,18 @@ body {
 .hpNum {
     display: flex;
     flex-direction: column;
-    margin-top: -4.2%;
-    margin-left: 2%;
+    margin-top: 10%;
+    margin-right: 75%;
+    position: absolute;
+    z-index: 2;
 }
 
 .hpNum h1 {
     font-size: 180%;
 }
 
-
 .UI3 {
+    text-decoration: none;
     width: 20%;
     height: 100%;
     /* background-color: rgb(90, 175, 66); */
@@ -520,6 +534,7 @@ body {
 }
 
 .nextLesson-fromq1TOch2 {
+    text-decoration: none;
     background-color: #000;
     border-radius: 20px;
     height: 75%;
@@ -528,18 +543,303 @@ body {
 }
 
 .nextLesson-fromq1TOch2 h1 {
+    color: #fff;
     font-size: 190%;
     font-weight: 600;
     text-align: center;
     margin-top: 10%;
 }
 
+/* SECTION THREE */
 
+#sectionThree {
+    margin-top: 20%;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0E0E0E ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+#sectionFour {
+    margin-top: 15%;
+    background-color: #0E0E0E;
+    width: 99.5vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.quizFrame4 {
+    height: 75%;
+    width: 85%;
+    /* background-color: rgb(0, 47, 47); */
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+}
 
+.quizLeft4 {
+    width: 40%;
+    height: 100%;
+    /* background-color: rgb(70, 5, 132); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.quizLeftBackground4 {
+    /* background-color: rgb(83, 83, 0); */
+    border-radius: 20px;
+    height: 80%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    color: #fff;
+}
 
+.quizLeftBackground4 h1 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 3500%;
+    font-weight: 450;
+    text-align: center;
+    margin-top: -25%;
+    margin-left: -5%;
+}
+
+.quizRight4 {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: brown; */
+}
+
+.quizRightTop4 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 25%;
+    /* background-color: cadetblue; */
+    color: white;
+}
+
+.quizRightTop4 h1 {
+    font-size: 350%;
+    font-weight: 800;
+    margin-top: 3%;
+}
+
+.quizRightTop4 h2 {
+    font-size: 200%;
+    font-weight: 350;
+    margin-top: 0%;
+}
+
+.quizRightBottom4 {
+    /* background-color: darkorange; */
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
+}
+
+.quizRightBottom-UpperColumn4 {
+    width: 100%;
+    height: 50%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+
+.q1-col1s-answerBoxes4 {
+    width: 25%;
+    height: 100%;
+    background-color: #1C1C1C;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.q1-col1s-answerBoxes4 h1 {
+    font-size: 500%;
+    color: #fff;
+}
+
+.quizRightBottom-LowerColumn4 {
+    width: 100%;
+    height: 50%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+
+.q1-col2s-answerBoxes4 {
+    width: 23.5%;
+    height: 100%;
+    background-color: #1C1C1C;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.q1-col2s-answerBoxes4 h1 {
+    font-size: 500%;
+    color: #fff;
+}
+
+.quizUI4 {
+    height: 15%;
+    width: 95%;
+    /* background-color: rgb(50, 148, 148); */
+    margin-top: 0.5%;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.UI1-4 {
+    width: 24%;
+    height: 100%;
+    /* background-color: rgb(148, 2, 82); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chapterInfo4 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.UI1-4 h1 {
+    height: 50%;
+    width: 100%;
+    font-size: 340%;
+}
+
+.UI1-4 h2 {
+    height: 50%;
+    width: 100%;
+    font-size: 180%;
+    font-weight: 300;
+    margin-top: 1%;
+}
+
+.UI2-4 {
+    width: 55%;
+    height: 100%;
+    /* background-color: rgb(140, 66, 175); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hpBar4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+
+.hpBG4 {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    position: relative;
+}
+
+.hpBars4 {
+    width: 98%;
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 2;
+    gap: 0.1%;
+}
+
+.bars4 {
+    width: 32%;
+    height: 75%;
+    background-color: greenyellow;
+    margin-top: 0%;
+    margin-left: 1.2%;
+}
+
+#bar1-4 {
+    border-radius: 10px 0px 0px 10px;
+}
+
+#bar3-4 {
+    border-radius: 0px 10px 10px 0px;
+}
+
+.hpNum4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-right: 75%;
+    position: absolute;
+    z-index: 2;
+}
+
+.hpNum4 h1 {
+    font-size: 180%;
+}
+
+.UI3-4 {
+    text-decoration: none;
+    width: 20%;
+    height: 100%;
+    /* background-color: rgb(90, 175, 66); */
+    display: flex;
+    flex-direction: column;
+}
+
+.nextLesson-fromq1TOch2-4 {
+    text-decoration: none;
+    background-color: #000;
+    border-radius: 20px;
+    height: 75%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.nextLesson-fromq1TOch2-4 h1 {
+    color: #fff;
+    font-size: 190%;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10%;
+}
 
 
 
