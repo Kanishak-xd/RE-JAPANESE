@@ -327,3 +327,6 @@ allOptionBoxesFour.forEach((optionBoxFour) => {
         }
     });
 });
+
+// QUIZ 3
+
