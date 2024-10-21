@@ -521,7 +521,6 @@ body {
 
 .arcImgContainer:hover {
     transform: translateY(-10px);
-    transition: none;
 }
 
 .arcImg {
